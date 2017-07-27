@@ -1,0 +1,78 @@
+.card-background-page1 {
+
+  ion-card {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .card-title {
+    position: absolute;
+    top: 52%;
+    font-size: 1.6em;
+    width: 100%;
+    font-weight: lighter;
+    color: #fff;
+  }
+
+  .input1 {
+    position: absolute;
+    top: 62%;
+    font-size: 1.9em;
+    width: 100%;
+    font-weight: lighter;
+    color: #fff;
+    font-family: Tahoma, Geneva, monospace;
+  }
+  .input-border-bottom{
+  	border-bottom-style: solid;
+  	border-width: 2px;
+  }
+  .input-border-bottom1{
+  	border-bottom-style: solid;
+  	border-width: 1px;
+  }
+  .input-opacity{
+  	opacity: .5;
+  	background-color: rgb(83, 83, 83);
+  	color: white;
+  }
+  .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    top: 77%;
+    width: 100%;
+    color: #fff;
+  }
+  .font-weight-lighter{
+    font-weight: lighter;
+  }
+  .btn-forgot-password{
+    margin-top: -5px;
+    text-transform: none;
+    height: 20px;
+    width: 27%;
+    font-size: .9em;
+  }
+  .btn-sign-up{
+    margin-top: -5px;
+    text-transform: none;
+    height: 20px;
+    width: 12%;
+  }
+  .card-subtitle-sign-up {
+    font-size: 1.0em;
+    position: absolute;
+    top: 93%;
+    width: 100%;
+    color: #fff;
+  }
+
+  ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: white;
+    text-align: center;
+}
+
+}

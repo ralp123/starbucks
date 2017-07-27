@@ -1,0 +1,71 @@
+<ion-header>
+  <ion-navbar color="dark" style="display: none;">
+    <ion-title class="align-center">Signup</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page2 grid-basic-page">
+	
+  <ion-card>
+  	<img src="assets/image/signupdetails.png"/>
+  	<div class="card-title">
+  		<ion-grid class="ion-grid-modified">
+	  		<ion-row>
+		      <ion-col>
+		        <div></div>
+		      </ion-col>
+		      <ion-col col-9>
+		        <div class="float-left">We just need a couple of your details</div>
+		      </ion-col>
+		      <ion-col>
+		        <div></div>
+		      </ion-col>
+	    	</ion-row>
+	    	<ion-row>
+		      <ion-col>
+		        <div></div>
+		      </ion-col>
+		      <ion-col col-9>
+		        <div class="float-left">to get started.</div>
+		      </ion-col>
+		      <ion-col>
+		        <div></div>
+		      </ion-col>
+	    	</ion-row>
+    	</ion-grid>
+  	</div>
+  	<div class="card-title11">
+  	
+	  	<ion-grid class="ion-grid-modified">
+	    	<ion-row>
+	      		<ion-col col-10>
+        			<div>
+        				<form (submit)="processForm()" [formGroup]="form">
+						      <ion-list>
+
+						      <ion-item class="input-opacity input-border-bottom input-height">
+						        <ion-input formControlName="firstName" type="text" placeholder="email"></ion-input>
+						      </ion-item>
+
+						    </ion-list>
+  						</form>
+        			</div>
+      			</ion-col>
+		      	<ion-col col-2>
+		        	<div>
+		        		
+    						<button ion-button color="dark" class="button-lg" full>Next</button>
+  						
+  					</div>
+		      	</ion-col>
+	      	</ion-row>
+	    </ion-grid>
+
+	</div>
+	<div class="card-subtitle font-weight-lighter">
+  		<button ion-button color="light" class="btn-forgot-password font-weight-lighter" clear (click)="loginpage1()">I'm already a member</button>
+  	</div>
+  </ion-card>
+
+
+ </ion-content>

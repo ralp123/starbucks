@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar color="dark" style="display: none;">
+    <ion-title class="align-center">Starbucks</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+	
+  <ion-card>
+  <img src="assets/image/login1.png"/>
+  <div class="card-title">
+  		<p>
+    		<button ion-button full class="btn-fb" (click)="homepage()"><p class="btn-fbp">Login with Facebook</p></button>
+  		</p>
+  		<p>
+    		<button ion-button full class="btn-fb btn-login" (click)="loginpage()"><p class="p-white">Login</p></button>
+  		</p>
+  	</div>
+    <div class="card-subtitle font-weight-lighter">Not a member?   
+
+      <button ion-button color="light" class="btn-sign-up font-weight-lighter"  clear (click)="signinpage()"><ins>Signup</ins></button>
+    
+    </div>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,17 @@
+page-home {
+	
+	.align-center {
+		text-align:center;
+	}
+	.div-relative {
+    	position: relative;
+    	max-width: auto;
+    	margin: auto;
+	}
+	.div-absolute {
+    	position: absolute;
+    	top: 30%; /* to become center */
+		left: 20%;
+		transform: translate(-20%, -30%);
+	} 
+}

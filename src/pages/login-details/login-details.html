@@ -1,0 +1,37 @@
+<ion-content class="card-background-page1">
+	
+  <ion-card>
+  	<img src="assets/image/logindetails.png"/>
+  	<div class="card-title">Login</div>
+  	<div class="input1">
+  		<form (submit)="processForm()" [formGroup]="form">
+		      <ion-list class="input-border-bottom1">
+
+		      <ion-item class="input-opacity input-border-bottom">
+		        <ion-input formControlName="firstName" type="text" placeholder="email"></ion-input>
+		      </ion-item>
+
+		      <ion-item class="input-opacity">
+		        <ion-input formControlName="lastName" type="password" placeholder="password"></ion-input>
+		      </ion-item>
+
+		    </ion-list>
+		    
+		    <!--<div padding>
+		      <button ion-button block type="submit">Create Account</button>
+		    </div>-->
+  		</form>
+  	</div>
+  	<div class="card-subtitle font-weight-lighter">
+  		<button ion-button color="light" class="btn-forgot-password font-weight-lighter" clear>Forgot Password</button>
+  	</div>
+  	<div class="card-subtitle-sign-up font-weight-lighter">Not a member?   
+
+      <button ion-button color="light" class="btn-sign-up font-weight-lighter" clear (click)="signinpage()"><ins>Signup</ins></button>
+    
+    </div>
+  </ion-card>
+
+
+
+</ion-content>

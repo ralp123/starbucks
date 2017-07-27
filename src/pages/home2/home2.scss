@@ -1,0 +1,40 @@
+page-home2 {
+.align-center{
+	text-align: center;
+}
+.bold{
+	font-weight: bold;
+}
+.para{
+    letter-spacing: 1.5px;
+    padding-left: 10px;
+     line-height: 1.5;
+     margin-bottom: 10px;
+}
+.btn-qr{
+	background-color: rgb(234, 213, 83);
+	margin-top: -10px;
+	height: 60px;
+	letter-spacing: 1.5px;
+	 opacity: 1;
+}
+.grid-basic-page {
+
+  .ion-grid-modified{
+    padding: 0px;
+
+  }
+  .ion-grid-modified ion-col{
+    padding: 0px;
+    background-color: transparent;
+  }
+
+  ion-col div {
+   
+    /* border: 1px solid #e6e9ee; */
+    border-radius: 2px;
+    text-align: center;
+    background-color: green;
+  }
+}
+}
